@@ -1,0 +1,9 @@
+v 4
+file . "full_adder_tb.vhdl" "c56692ee38643214f9f74465812f5c38acda1d1f" "20211028122607.014":
+  entity full_adder_tb at 1( 0) + 0 on 89;
+  architecture test_arc of full_adder_tb at 8( 115) + 0 on 90;
+file . "full_adder.vhdl" "483604065229f80441887a0469f35498e1fc4574" "20211028121415.738":
+  entity full_adder at 1( 0) + 0 on 69;
+  architecture dataflow of full_adder at 14( 241) + 0 on 70;
+  entity four_bit_full_adder at 20( 376) + 0 on 71;
+  architecture structure of four_bit_full_adder at 34( 731) + 0 on 72;

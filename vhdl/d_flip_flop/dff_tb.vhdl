@@ -14,8 +14,17 @@ begin
 
 	CLK <= not CLK after clk_period/2 when finished /= '1' else '0';
 
-	D <= '0', '1' after 4 ns, '0' after 14 ns, '1' after 20 ns, '0' after 24 ns;
-	finished <= '1' after 30 ns;		
-
-	assert finished = '0';
+	testing: process 
+	begin
+		D <= '0';
+		wait for 2 ns;
+		D <= '1';
+		wait for 5 ns;
+		D <= '0';
+		wait for 8 ns;
+		D <= '1';
+		wait for 4 ns;
+		D <= '0';
+		wait for 2 ns;
+	end process testing;
 end test_arc;
