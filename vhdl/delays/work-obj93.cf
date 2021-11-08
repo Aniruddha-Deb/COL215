@@ -1,0 +1,7 @@
+v 4
+file . "delay.vhdl" "faa00bb00b92c5ccfe13ca4c9c98d7ebb5457499" "20211108072635.763":
+  entity delay at 1( 0) + 0 on 35;
+  architecture delay_bhv of delay at 8( 78) + 0 on 36;
+file . "delay_tb.vhdl" "48e4c34338874a25d71a171c63089c5cc121e142" "20211108085720.626":
+  entity delay_tb at 1( 0) + 0 on 61;
+  architecture delay_tb_bhv of delay_tb at 4( 34) + 0 on 62;

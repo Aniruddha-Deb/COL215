@@ -1,0 +1,4 @@
+v 4
+file . "sigvar.vhdl" "fce7cc9c6a7c5a3eaa6c2e05c40314de6001b437" "20211108110956.493":
+  entity sigvar at 1( 0) + 0 on 19;
+  architecture sigvar_bvr of sigvar at 4( 31) + 0 on 20;
